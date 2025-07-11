@@ -1,14 +1,18 @@
 
 header{
     background-image: url(../media/Hero-bg.png);
-    
-    
+    max-width: 2650px;
+    margin: 0 auto;
 }
 
 body{
     background-color: rgb(246, 243, 255);
 }
 
+main{
+    max-width: 2000px;
+    margin: 0 auto;
+}
 .action-image img{
     border-radius: 48px;
 }
@@ -51,17 +55,43 @@ button{
 .button-banner{
     font-weight: bold;
     padding: 12px 36px;
+    border: none;
 }
 
+.button-banner:hover{
+    background-color: yellow;
+    color: #252432;
+    cursor: pointer;
+}
 
 .button-primary{
     font-weight: bold;
     padding: 12px 36px;
+    border: none;
 }
+
+.button-primary:hover{
+    background-color: yellow;
+    color: #252432;
+    cursor: pointer;
+}
+
+div.button-container{
+    padding-right: 30%;
+}
+
 .button-launch{
     font-weight: bold;
     padding: 12px 36px;
+    border: none;
 }
+
+.button-launch:hover{
+    background-color: yellow;
+    color: #252432;
+    cursor: pointer;
+}
+
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing:  auto;
@@ -136,6 +166,7 @@ div.rate{
 .rate .comment{
     padding: 0%;
     font-size: 20px;
+    font-weight: 300;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -144,6 +175,10 @@ div.rate{
     gap: 20px;
     
     
+}
+
+div.reviewer p{
+    padding-right: 2%;
 }
 
 .reviewer img{
@@ -164,7 +199,8 @@ div.rate{
 }
 
 .reviewer{
-    box-shadow: 5px 5px;
+    border: 1px #F2EDED;
+    border-radius: 14px;
     background-color: white;
     padding-left: 10px;
 }
@@ -191,4 +227,108 @@ div.name .date{
     display: flex;
     gap: 12px;
 }
+
+div.Left h3{
+    font-weight: bold;
+    font-size: 97px;
+    line-height: 120%;
+    padding-right: 50%;
+}
+
+.Communication{
+    display: flex;
+    gap: auto;
+  
+}
+
+form label {
+    font-weight: Fill;
+    color: black;
+}
+
+input[type="email"]{
+   border-radius: 5px;
+    height: 35px;
+    padding: 5px 10px;
+    width: 250%;
+    margin-bottom: 19px;
+    border-color: #D6DDED;
+}
+input[type="text"]{
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px 10px;
+    width: 250%;
+    margin-bottom: 19px;
+    border-color: #D6DDED;
+}
+input[type="textarea"]{
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px 10px;
+    width: 250%;
+    border-color: #D6DDED;
+    margin-bottom: 19px;
+}
+
+input[type="submit"]{
+    font-weight: bold;
+    width: 265%;
+    padding: 12px 36px;
+     color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+    outline-color: #FFFFFF;
+}
+
+input[type="submit"]:hover{
+    background-color: yellow;
+    color: #252432;
+    cursor: pointer;
+}
+
+div.Left h3{
+padding-right: 50px;
+}
+
+
+.last h3{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+    padding-left: 38%
+    
+}
+
+.last p{
+    color: #8987A1;
+    font-weight: 531;
+    font-size: 25px;
+margin-bottom: 0%;
+    padding: 0% 32% 0% 28%;
+}
+
+
+
+.footer-nav{
+    display: flex;
+    gap: 3px;
+    padding: 0 auto;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 25px;
+    margin-right: 80px;
+    margin-top: 2%;
+
+}
+
+
+footer{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 
