@@ -100,3 +100,30 @@ button{
     margin-bottom: 62.5px;
     margin-right: 625px;
 }
+.pr-colour{
+    background-color: #aa90f9b1;
+    width: 1600px;
+    align-items: center;
+    margin-right: 50%;
+    margin-left: 5%;
+    border-radius: 48px;
+}
+
+
+section.pr-colour div.pr-title h2{
+    padding-left: 450px;
+    padding-top: 50px;
+    font-size: 38px;
+    color: #252432;
+}
+div.rate{
+    display: flex;
+    gap: 158px;
+}
+
+.rate div{
+    padding-left: 200px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
